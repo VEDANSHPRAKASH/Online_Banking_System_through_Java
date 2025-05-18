@@ -58,7 +58,7 @@ class Account {
     }
 }
 
-public class OnlineBankingSystem {
+public class SimpleBankingSystem {
     static HashMap<String, Account> accounts = new HashMap<>();
     static Scanner sc = new Scanner(System.in);
 
@@ -66,7 +66,7 @@ public class OnlineBankingSystem {
         int choice;
 
         do {
-            System.out.println("----Online Banking System----");
+            System.out.println("----Normal Banking System----");
             System.out.println("1. Create Account");
             System.out.println("2. Display Account");
             System.out.println("3. Deposit");
